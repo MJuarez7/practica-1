@@ -48,3 +48,33 @@ li .active{
 .text-a{
     font-size: 10px;
 }
+
+.carousel-caption{
+    margin-bottom: 20px;
+}
+
+@media (min-width: 576px){
+
+}
+
+@media (min-width: 768px) { 
+    .text-a{
+        font-size: 15px;
+    }
+    .carousel-caption{
+        margin-bottom: 40px;
+    }
+
+}
+
+@media (min-width: 992px) { 
+   .carousel-caption{
+    margin-bottom: 130px;
+}}
+ 
+@media (min-width: 1200px) { 
+    .carousel-caption{
+     margin-bottom: 150px;
+ }}
+    
+
