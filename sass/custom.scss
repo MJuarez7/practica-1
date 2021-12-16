@@ -1,0 +1,46 @@
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+.container-slider{
+    margin-top: 65px;
+}
+.nav-link {
+    height: 50px;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+   
+   
+}
+
+.nav-link:hover {
+    height: 50px;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0;
+    text-align: center;
+    display: block;
+    background-color:$primary;
+    margin-top: -3px;
+   
+    
+}
+
+.let-nav{
+    line-height: 50px;
+    font-size: 15px;
+   
+   
+ 
+}
+li .active{
+    border-top: 3px solid $primary;
+    margin-top: -3px;
+   
+}
+
