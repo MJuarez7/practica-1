@@ -1,6 +1,13 @@
+$primary:  #14447c ;
+$secondary:#28c986;
+
+
+
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+
 
 
 .container-slider{
@@ -26,8 +33,9 @@
     padding: 0;
     text-align: center;
     display: block;
-    background-color:$primary;
+    background-color:$secondary;
     margin-top: -3px;
+   
    
     
 }
