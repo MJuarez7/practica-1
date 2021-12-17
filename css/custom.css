@@ -12011,15 +12011,19 @@ li .active {
 
 .carousel-inner {
   min-height: 300px;
+  max-height: 600px;
 }
 
 .carousel-item {
   min-height: 300px;
+  max-height: 600px;
 }
 
 .img-car {
   min-height: 300px;
-  opacity: 0.8;
+  max-height: 600px;
+  -webkit-filter: contrast(50%);
+          filter: contrast(50%);
 }
 
 @media (min-width: 768px) {
@@ -12027,19 +12031,19 @@ li .active {
     font-size: 15px;
   }
   .carousel-caption {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
   }
 }
 
 @media (min-width: 992px) {
   .carousel-caption {
-    margin-bottom: 130px;
+    margin-bottom: 150px;
   }
 }
 
 @media (min-width: 1200px) {
   .carousel-caption {
-    margin-bottom: 150px;
+    margin-bottom: 180px;
   }
 }
 /*# sourceMappingURL=custom.css.map */
