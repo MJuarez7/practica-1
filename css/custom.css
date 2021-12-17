@@ -12000,7 +12000,7 @@ li .active {
 }
 
 .carousel-caption {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .bg-top {
@@ -12012,17 +12012,17 @@ li .active {
 }
 
 .carousel-inner {
-  min-height: 300px;
+  min-height: 350px;
   max-height: 600px;
 }
 
 .carousel-item {
-  min-height: 300px;
+  min-height: 350px;
   max-height: 600px;
 }
 
 .img-car {
-  min-height: 300px;
+  min-height: 350px;
   max-height: 600px;
   -webkit-filter: contrast(50%);
           filter: contrast(50%);
@@ -12033,7 +12033,7 @@ li .active {
     font-size: 15px;
   }
   .carousel-caption {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
   }
 }
 
