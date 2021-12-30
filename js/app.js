@@ -17,3 +17,24 @@ const typed = new Typed('.typed',{
 	cursorChar: '|', // Caracter para el cursor
 	contentType: 'html', // 'html' o 'null' para texto sin formato
 });
+
+let imgSer = document.getElementsByClassName("imgSer");
+
+var crecer = function () {
+    this.style.transform ="scale(1.5, 1.5)";
+    this.style.transition = "0.8s";
+};
+
+var nocrecer = function () {
+    this.style.transform="scale(1, 1)";
+    this.style.transition = "0.8s";
+};
+
+
+for (var i = 0; i < imgSer.length; i++) {
+    imgSer[i].addEventListener('mouseover', crecer, false);
+}
+
+for (var i = 0; i < imgSer.length; i++) {
+    imgSer[i].addEventListener('mouseout', nocrecer, false);
+}
